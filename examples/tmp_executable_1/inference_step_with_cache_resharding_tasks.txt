@@ -1,0 +1,4 @@
+ReshardingTask(shape: (4, 1, 4096), mesh_id: 0->1,
+ShardingSpec((NoSharding(), NoSharding(), NoSharding()), (Replicated(replicas=1),)) ->
+ShardingSpec((NoSharding(), NoSharding(), NoSharding()), (Replicated(replicas=1),)))
+

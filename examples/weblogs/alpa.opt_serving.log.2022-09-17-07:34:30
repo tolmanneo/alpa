@@ -1,0 +1,44 @@
+2022-09-17 07:34:30 | INFO | stdout | here
+2022-09-17 07:34:30 | INFO | stdout |  * Serving Flask app 'interactive_hosted'
+2022-09-17 07:34:30 | INFO | stdout |  * Debug mode: off
+2022-09-17 07:34:30 | INFO | ray._private.worker | Connecting to existing Ray cluster at address: 192.168.0.131:6379...
+2022-09-17 07:34:30 | INFO | ray._private.worker | Connecting to existing Ray cluster at address: 192.168.0.131:6379...
+2022-09-17 07:34:30 | ERROR | stderr | 2022-09-17 07:34:30,109	INFO worker.py:1333 -- Connecting to existing Ray cluster at address: 192.168.0.131:6379...
+2022-09-17 07:34:30 | INFO | ray._private.worker | Connected to Ray cluster.
+2022-09-17 07:34:30 | INFO | ray._private.worker | Connected to Ray cluster.
+2022-09-17 07:34:30 | ERROR | stderr | 2022-09-17 07:34:30,112	INFO worker.py:1518 -- Connected to Ray cluster.
+2022-09-17 07:34:30 | INFO | stdout | Load model alpa/opt-6.7b ... (This can take several minutes for very large models)
+2022-09-17 07:34:30 | INFO | stdout |  - Compile executables for encoder_chunk_sizes=[1, 64].
+2022-09-17 07:34:40 | INFO | stdout | elapsed: 10.16 second.
+2022-09-17 07:34:40 | INFO | stdout |  - Load parameters.
+2022-09-17 07:34:52 | INFO | stdout | elapsed: 11.77 second.
+2022-09-17 07:34:53 | INFO | alpa.opt_serving | Loading model time: 22.15
+2022-09-17 07:39:43 | INFO | alpa.opt_serving | Received new generate request: prompt length [1], max_len: 64, temperature: 0.7, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-17 07:39:45 | INFO | alpa.opt_serving | Batch 0 begin. batch size: 1
+2022-09-17 07:39:45 | ERROR | alpa.opt_serving | Traceback (most recent call last):
+  File "opt_serving/interactive_hosted.py", line 101, in generate_loop
+    item = target_queue.get(timeout=timeout / 1000)
+  File "/usr/lib/python3.8/queue.py", line 178, in get
+    raise Empty
+_queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "opt_serving/interactive_hosted.py", line 218, in worker_main
+    batching_loop()
+  File "opt_serving/interactive_hosted.py", line 78, in batching_loop
+    generate_batch, receive_item = generate_loop(
+  File "opt_serving/interactive_hosted.py", line 128, in generate_loop
+    generations = generator.generate(**request_args)
+  File "/home/moe/Documents/GitHub/alpa/alpa/examples/opt_serving/generator.py", line 133, in generate
+    input_ids = torch.IntTensor(input_ids).to(self.torch_device)
+RuntimeError: Expected one of cpu, cuda, ipu, xpu, mkldnn, opengl, opencl, ideep, hip, ve, ort, mps, xla, lazy, vulkan, meta, hpu, privateuseone device type at start of device string: gpu
+
+2022-09-17 07:40:21 | ERROR | stderr | Error in atexit._run_exitfuncs:
+2022-09-17 07:40:21 | ERROR | stderr | Traceback (most recent call last):
+2022-09-17 07:40:21 | ERROR | stderr |   File "/home/moe/Documents/GitHub/alpa/venv/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 105, in wrapper
+2022-09-17 07:40:21 | ERROR | stderr |     return func(*args, **kwargs)
+2022-09-17 07:40:21 | ERROR | stderr |   File "/home/moe/Documents/GitHub/alpa/venv/lib/python3.8/site-packages/ray/_private/worker.py", line 1580, in shutdown
+2022-09-17 07:40:21 | ERROR | stderr |     time.sleep(0.5)
+2022-09-17 07:40:21 | ERROR | stderr | KeyboardInterrupt

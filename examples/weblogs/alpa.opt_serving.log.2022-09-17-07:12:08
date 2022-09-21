@@ -1,0 +1,21 @@
+2022-09-17 07:12:08 | INFO | stdout |  * Serving Flask app 'interactive_hosted'
+2022-09-17 07:12:08 | INFO | stdout |  * Debug mode: off
+2022-09-17 07:12:08 | INFO | ray._private.worker | Connecting to existing Ray cluster at address: 192.168.0.131:6379...
+2022-09-17 07:12:08 | INFO | ray._private.worker | Connecting to existing Ray cluster at address: 192.168.0.131:6379...
+2022-09-17 07:12:08 | ERROR | stderr | 2022-09-17 07:12:08,708	INFO worker.py:1333 -- Connecting to existing Ray cluster at address: 192.168.0.131:6379...
+2022-09-17 07:12:08 | INFO | ray._private.worker | Connected to Ray cluster.
+2022-09-17 07:12:08 | INFO | ray._private.worker | Connected to Ray cluster.
+2022-09-17 07:12:08 | ERROR | stderr | 2022-09-17 07:12:08,710	INFO worker.py:1518 -- Connected to Ray cluster.
+2022-09-17 07:12:08 | INFO | stdout | Load model alpa/opt-6.7b ... (This can take several minutes for very large models)
+2022-09-17 07:12:08 | INFO | stdout |  - Compile executables for encoder_chunk_sizes=[1, 64].
+2022-09-17 07:12:19 | INFO | stdout | elapsed: 10.16 second.
+2022-09-17 07:12:19 | INFO | stdout |  - Load parameters.
+2022-09-17 07:12:30 | INFO | stdout | elapsed: 11.79 second.
+2022-09-17 07:12:31 | INFO | alpa.opt_serving | Loading model time: 22.22
+2022-09-17 07:19:16 | ERROR | stderr | Error in atexit._run_exitfuncs:
+2022-09-17 07:19:16 | ERROR | stderr | Traceback (most recent call last):
+2022-09-17 07:19:16 | ERROR | stderr |   File "/home/moe/Documents/GitHub/alpa/venv/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 105, in wrapper
+2022-09-17 07:19:16 | ERROR | stderr |     return func(*args, **kwargs)
+2022-09-17 07:19:16 | ERROR | stderr |   File "/home/moe/Documents/GitHub/alpa/venv/lib/python3.8/site-packages/ray/_private/worker.py", line 1580, in shutdown
+2022-09-17 07:19:16 | ERROR | stderr |     time.sleep(0.5)
+2022-09-17 07:19:16 | ERROR | stderr | KeyboardInterrupt

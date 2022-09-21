@@ -1,0 +1,223 @@
+2022-09-18 03:53:01 | INFO | stdout | here
+2022-09-18 03:53:01 | INFO | stdout | Cannot find cached weights under '/home/moe/opt_weights/125M_np'.
+2022-09-18 03:53:01 | INFO | stdout | Load the pre-trained pytorch weights of opt-125m from huggingface. The downloading and cpu loading can take dozens of minutes. If it seems to get stuck, you can monitor the progress by checking the memory usage of this process.
+2022-09-18 03:53:01 | INFO | stdout |  * Serving Flask app 'interactive_hosted'
+2022-09-18 03:53:01 | INFO | stdout |  * Debug mode: off
+2022-09-18 03:53:03 | ERROR | stderr | Downloading:   0%|                                                                                                                                                                       | 0.00/651 [00:00<?, ?B/s]
+2022-09-18 03:53:03 | ERROR | stderr | Downloading: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 651/651 [00:00<00:00, 401kB/s]
+2022-09-18 03:53:03 | ERROR | stderr | 
+2022-09-18 03:53:05 | ERROR | stderr | Downloading:   0%|                                                                                                                                                                      | 0.00/251M [00:00<?, ?B/s]
+2022-09-18 03:53:06 | ERROR | stderr | Downloading:   0%|                                                                                                                                                             | 16.4k/251M [00:00<48:57, 85.3kB/s]
+2022-09-18 03:53:06 | ERROR | stderr | Downloading:   0%|                                                                                                                                                              | 51.2k/251M [00:00<29:28, 142kB/s]
+2022-09-18 03:53:06 | ERROR | stderr | Downloading:   0%|                                                                                                                                                               | 138k/251M [00:00<14:43, 283kB/s]
+2022-09-18 03:53:06 | ERROR | stderr | Downloading:   0%|▏                                                                                                                                                              | 312k/251M [00:00<07:56, 526kB/s]
+2022-09-18 03:53:06 | ERROR | stderr | Downloading:   0%|▍                                                                                                                                                              | 660k/251M [00:00<04:15, 980kB/s]
+2022-09-18 03:53:07 | ERROR | stderr | Downloading:   1%|▊                                                                                                                                                            | 1.34M/251M [00:01<02:14, 1.86MB/s]
+2022-09-18 03:53:07 | ERROR | stderr | Downloading:   1%|█▋                                                                                                                                                           | 2.72M/251M [00:01<01:09, 3.58MB/s]
+2022-09-18 03:53:07 | ERROR | stderr | Downloading:   2%|███                                                                                                                                                          | 4.98M/251M [00:01<00:39, 6.20MB/s]
+2022-09-18 03:53:07 | ERROR | stderr | Downloading:   4%|█████▋                                                                                                                                                       | 9.02M/251M [00:01<00:22, 10.8MB/s]
+2022-09-18 03:53:07 | ERROR | stderr | Downloading:   5%|███████▌                                                                                                                                                     | 12.1M/251M [00:01<00:19, 12.4MB/s]
+2022-09-18 03:53:08 | ERROR | stderr | Downloading:   6%|██████████▏                                                                                                                                                  | 16.2M/251M [00:02<00:15, 15.0MB/s]
+2022-09-18 03:53:08 | ERROR | stderr | Downloading:   8%|████████████▋                                                                                                                                                | 20.2M/251M [00:02<00:13, 16.7MB/s]
+2022-09-18 03:53:08 | ERROR | stderr | Downloading:   9%|██████████████▋                                                                                                                                              | 23.4M/251M [00:02<00:13, 16.5MB/s]
+2022-09-18 03:53:08 | ERROR | stderr | Downloading:  11%|█████████████████▏                                                                                                                                           | 27.4M/251M [00:02<00:12, 17.7MB/s]
+2022-09-18 03:53:08 | ERROR | stderr | Downloading:  13%|███████████████████▋                                                                                                                                         | 31.4M/251M [00:02<00:11, 18.4MB/s]
+2022-09-18 03:53:09 | ERROR | stderr | Downloading:  14%|█████████████████████▌                                                                                                                                       | 34.5M/251M [00:03<00:12, 17.7MB/s]
+2022-09-18 03:53:09 | ERROR | stderr | Downloading:  15%|███████████████████████▊                                                                                                                                     | 37.9M/251M [00:03<00:11, 17.8MB/s]
+2022-09-18 03:53:09 | ERROR | stderr | Downloading:  17%|██████████████████████████▎                                                                                                                                  | 42.0M/251M [00:03<00:11, 18.6MB/s]
+2022-09-18 03:53:09 | ERROR | stderr | Downloading:  18%|████████████████████████████▋                                                                                                                                | 45.7M/251M [00:03<00:10, 19.0MB/s]
+2022-09-18 03:53:09 | ERROR | stderr | Downloading:  20%|███████████████████████████████▏                                                                                                                             | 49.8M/251M [00:03<00:10, 19.4MB/s]
+2022-09-18 03:53:10 | ERROR | stderr | Downloading:  21%|█████████████████████████████████▋                                                                                                                           | 53.8M/251M [00:04<00:10, 19.6MB/s]
+2022-09-18 03:53:10 | ERROR | stderr | Downloading:  23%|███████████████████████████████████▋                                                                                                                         | 56.9M/251M [00:04<00:10, 18.6MB/s]
+2022-09-18 03:53:10 | ERROR | stderr | Downloading:  24%|██████████████████████████████████████                                                                                                                       | 60.8M/251M [00:04<00:09, 19.1MB/s]
+2022-09-18 03:53:10 | ERROR | stderr | Downloading:  26%|████████████████████████████████████████▌                                                                                                                    | 64.8M/251M [00:04<00:09, 19.5MB/s]
+2022-09-18 03:53:10 | ERROR | stderr | Downloading:  27%|██████████████████████████████████████████▊                                                                                                                  | 68.3M/251M [00:04<00:09, 18.9MB/s]
+2022-09-18 03:53:11 | ERROR | stderr | Downloading:  29%|█████████████████████████████████████████████▏                                                                                                               | 72.2M/251M [00:05<00:09, 19.3MB/s]
+2022-09-18 03:53:11 | ERROR | stderr | Downloading:  30%|███████████████████████████████████████████████▋                                                                                                             | 76.1M/251M [00:05<00:08, 19.7MB/s]
+2022-09-18 03:53:11 | ERROR | stderr | Downloading:  32%|██████████████████████████████████████████████████                                                                                                           | 79.9M/251M [00:05<00:08, 19.5MB/s]
+2022-09-18 03:53:11 | ERROR | stderr | Downloading:  34%|████████████████████████████████████████████████████▌                                                                                                        | 84.0M/251M [00:05<00:08, 19.8MB/s]
+2022-09-18 03:53:11 | ERROR | stderr | Downloading:  35%|██████████████████████████████████████████████████████▍                                                                                                      | 86.9M/251M [00:05<00:08, 18.5MB/s]
+2022-09-18 03:53:11 | ERROR | stderr | Downloading:  36%|█████████████████████████████████████████████████████████                                                                                                    | 91.1M/251M [00:06<00:08, 19.2MB/s]
+2022-09-18 03:53:12 | ERROR | stderr | Downloading:  38%|███████████████████████████████████████████████████████████▍                                                                                                 | 94.9M/251M [00:06<00:08, 19.4MB/s]
+2022-09-18 03:53:12 | ERROR | stderr | Downloading:  40%|██████████████████████████████████████████████████████████████                                                                                               | 99.0M/251M [00:06<00:07, 19.7MB/s]
+2022-09-18 03:53:12 | ERROR | stderr | Downloading:  41%|████████████████████████████████████████████████████████████████▉                                                                                             | 103M/251M [00:06<00:07, 20.0MB/s]
+2022-09-18 03:53:12 | ERROR | stderr | Downloading:  43%|███████████████████████████████████████████████████████████████████▌                                                                                          | 107M/251M [00:06<00:07, 20.1MB/s]
+2022-09-18 03:53:12 | ERROR | stderr | Downloading:  44%|█████████████████████████████████████████████████████████████████████▊                                                                                        | 111M/251M [00:07<00:07, 19.8MB/s]
+2022-09-18 03:53:13 | ERROR | stderr | Downloading:  46%|████████████████████████████████████████████████████████████████████████▎                                                                                     | 115M/251M [00:07<00:06, 19.9MB/s]
+2022-09-18 03:53:13 | ERROR | stderr | Downloading:  47%|██████████████████████████████████████████████████████████████████████████▉                                                                                   | 119M/251M [00:07<00:07, 18.7MB/s]
+2022-09-18 03:53:13 | ERROR | stderr | Downloading:  49%|█████████████████████████████████████████████████████████████████████████████▍                                                                                | 123M/251M [00:07<00:06, 20.7MB/s]
+2022-09-18 03:53:13 | ERROR | stderr | Downloading:  51%|████████████████████████████████████████████████████████████████████████████████                                                                              | 127M/251M [00:07<00:05, 20.8MB/s]
+2022-09-18 03:53:13 | ERROR | stderr | Downloading:  52%|██████████████████████████████████████████████████████████████████████████████████▍                                                                           | 131M/251M [00:07<00:05, 20.7MB/s]
+2022-09-18 03:53:14 | ERROR | stderr | Downloading:  54%|█████████████████████████████████████████████████████████████████████████████████████                                                                         | 135M/251M [00:08<00:05, 20.6MB/s]
+2022-09-18 03:53:14 | ERROR | stderr | Downloading:  55%|███████████████████████████████████████████████████████████████████████████████████████▌                                                                      | 139M/251M [00:08<00:05, 19.9MB/s]
+2022-09-18 03:53:14 | ERROR | stderr | Downloading:  57%|██████████████████████████████████████████████████████████████████████████████████████████                                                                    | 143M/251M [00:08<00:05, 20.7MB/s]
+2022-09-18 03:53:14 | ERROR | stderr | Downloading:  59%|████████████████████████████████████████████████████████████████████████████████████████████▋                                                                 | 147M/251M [00:08<00:04, 20.8MB/s]
+2022-09-18 03:53:14 | ERROR | stderr | Downloading:  60%|███████████████████████████████████████████████████████████████████████████████████████████████▏                                                              | 151M/251M [00:08<00:04, 20.1MB/s]
+2022-09-18 03:53:15 | ERROR | stderr | Downloading:  62%|█████████████████████████████████████████████████████████████████████████████████████████████████▋                                                            | 155M/251M [00:09<00:04, 20.5MB/s]
+2022-09-18 03:53:15 | ERROR | stderr | Downloading:  63%|████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                         | 159M/251M [00:09<00:04, 20.5MB/s]
+2022-09-18 03:53:15 | ERROR | stderr | Downloading:  64%|█████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                        | 162M/251M [00:09<00:04, 18.6MB/s]
+2022-09-18 03:53:15 | ERROR | stderr | Downloading:  66%|████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                     | 166M/251M [00:09<00:04, 19.2MB/s]
+2022-09-18 03:53:15 | ERROR | stderr | Downloading:  68%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                   | 170M/251M [00:09<00:04, 19.6MB/s]
+2022-09-18 03:53:16 | ERROR | stderr | Downloading:  69%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                | 174M/251M [00:10<00:03, 19.8MB/s]
+2022-09-18 03:53:16 | ERROR | stderr | Downloading:  71%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                              | 177M/251M [00:10<00:03, 19.5MB/s]
+2022-09-18 03:53:16 | ERROR | stderr | Downloading:  72%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                           | 181M/251M [00:10<00:03, 19.8MB/s]
+2022-09-18 03:53:16 | ERROR | stderr | Downloading:  74%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                         | 185M/251M [00:10<00:03, 19.2MB/s]
+2022-09-18 03:53:16 | ERROR | stderr | Downloading:  75%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                       | 188M/251M [00:10<00:03, 18.8MB/s]
+2022-09-18 03:53:17 | ERROR | stderr | Downloading:  77%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                    | 192M/251M [00:11<00:03, 19.2MB/s]
+2022-09-18 03:53:17 | ERROR | stderr | Downloading:  78%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                  | 196M/251M [00:11<00:02, 18.4MB/s]
+2022-09-18 03:53:17 | ERROR | stderr | Downloading:  80%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                | 200M/251M [00:11<00:02, 19.4MB/s]
+2022-09-18 03:53:17 | ERROR | stderr | Downloading:  81%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                             | 204M/251M [00:11<00:02, 19.8MB/s]
+2022-09-18 03:53:17 | ERROR | stderr | Downloading:  83%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                           | 207M/251M [00:11<00:02, 19.7MB/s]
+2022-09-18 03:53:18 | ERROR | stderr | Downloading:  84%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                        | 211M/251M [00:12<00:01, 19.6MB/s]
+2022-09-18 03:53:18 | ERROR | stderr | Downloading:  86%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                      | 215M/251M [00:12<00:01, 19.6MB/s]
+2022-09-18 03:53:18 | ERROR | stderr | Downloading:  87%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                    | 218M/251M [00:12<00:01, 18.9MB/s]
+2022-09-18 03:53:18 | ERROR | stderr | Downloading:  89%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                 | 223M/251M [00:12<00:01, 19.2MB/s]
+2022-09-18 03:53:18 | ERROR | stderr | Downloading:  90%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉               | 227M/251M [00:12<00:01, 19.6MB/s]
+2022-09-18 03:53:19 | ERROR | stderr | Downloading:  92%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊             | 230M/251M [00:13<00:01, 18.5MB/s]
+2022-09-18 03:53:19 | ERROR | stderr | Downloading:  93%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎          | 234M/251M [00:13<00:00, 19.2MB/s]
+2022-09-18 03:53:19 | ERROR | stderr | Downloading:  95%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉        | 238M/251M [00:13<00:00, 19.6MB/s]
+2022-09-18 03:53:19 | ERROR | stderr | Downloading:  96%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎     | 242M/251M [00:13<00:00, 19.5MB/s]
+2022-09-18 03:53:19 | ERROR | stderr | Downloading:  98%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊   | 246M/251M [00:13<00:00, 19.9MB/s]
+2022-09-18 03:53:20 | ERROR | stderr | Downloading:  99%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉ | 249M/251M [00:14<00:00, 19.2MB/s]
+2022-09-18 03:53:20 | ERROR | stderr | Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 251M/251M [00:14<00:00, 17.8MB/s]
+2022-09-18 03:53:20 | ERROR | stderr | 
+2022-09-18 03:53:20 | INFO | stdout | Convert the weights to alpa format under /home/moe/opt_weights/125M_np ...
+2022-09-18 03:53:20 | ERROR | stderr |   0%|                                                                                                                                                                                      | 0/196 [00:00<?, ?it/s]
+2022-09-18 03:53:21 | ERROR | stderr | 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 196/196 [00:00<00:00, 2523.01it/s]
+2022-09-18 03:53:21 | ERROR | stderr | 
+2022-09-18 03:53:21 | INFO | ray._private.worker | Connecting to existing Ray cluster at address: 192.168.0.131:6379...
+2022-09-18 03:53:21 | INFO | ray._private.worker | Connecting to existing Ray cluster at address: 192.168.0.131:6379...
+2022-09-18 03:53:21 | ERROR | stderr | 2022-09-18 03:53:21,099	INFO worker.py:1333 -- Connecting to existing Ray cluster at address: 192.168.0.131:6379...
+2022-09-18 03:53:21 | INFO | ray._private.worker | Connected to Ray cluster.
+2022-09-18 03:53:21 | INFO | ray._private.worker | Connected to Ray cluster.
+2022-09-18 03:53:21 | ERROR | stderr | 2022-09-18 03:53:21,109	INFO worker.py:1518 -- Connected to Ray cluster.
+2022-09-18 03:53:21 | INFO | stdout | Load model alpa/opt-125m ... (This can take several minutes for very large models)
+2022-09-18 03:53:21 | INFO | stdout |  - Compile executables for encoder_chunk_sizes=[1, 64].
+2022-09-18 03:53:27 | INFO | stdout | elapsed: 6.49 second.
+2022-09-18 03:53:27 | INFO | stdout |  - Load parameters.
+2022-09-18 03:53:28 | INFO | stdout | elapsed: 0.28 second.
+2022-09-18 03:53:29 | INFO | alpa.opt_serving | Loading model time: 26.34
+2022-09-18 03:58:56 | INFO | alpa.opt_serving | Received new logprobs request: prompt length [8], top_k: 100000, api_key: None, ip: 127.0.0.1
+2022-09-18 03:58:56 | INFO | alpa.opt_serving | Forward begin. cache_id: d401459e-7e62-4811-b208-eccec229d451
+2022-09-18 03:58:57 | INFO | alpa.opt_serving | Forward end. e2e latency: 0.94
+2022-09-18 03:58:57 | ERROR | alpa.opt_serving | Traceback (most recent call last):
+  File "interactive_hosted.py", line 141, in logprobs_loop
+    item = target_queue.get(timeout=timeout / 1000)
+  File "/usr/lib/python3.8/queue.py", line 178, in get
+    raise Empty
+_queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "interactive_hosted.py", line 218, in worker_main
+    batching_loop()
+  File "interactive_hosted.py", line 89, in batching_loop
+    logprobs_batch = logprobs_loop(
+  File "interactive_hosted.py", line 167, in logprobs_loop
+    top_logprobs, top_indices = logprobs.topk(ro["top_k"], dim=1)
+RuntimeError: selected index k out of range
+
+2022-09-18 03:59:13 | INFO | alpa.opt_serving | Received new logprobs request: prompt length [8], top_k: 100000, api_key: None, ip: 127.0.0.1
+2022-09-18 03:59:13 | INFO | alpa.opt_serving | Forward begin. cache_id: 84e24da1-df3a-4294-b863-86625e4f9d3f
+2022-09-18 03:59:13 | INFO | alpa.opt_serving | Forward end. e2e latency: 0.04
+2022-09-18 03:59:13 | ERROR | alpa.opt_serving | Traceback (most recent call last):
+  File "interactive_hosted.py", line 141, in logprobs_loop
+    item = target_queue.get(timeout=timeout / 1000)
+  File "/usr/lib/python3.8/queue.py", line 178, in get
+    raise Empty
+_queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "interactive_hosted.py", line 218, in worker_main
+    batching_loop()
+  File "interactive_hosted.py", line 89, in batching_loop
+    logprobs_batch = logprobs_loop(
+  File "interactive_hosted.py", line 167, in logprobs_loop
+    top_logprobs, top_indices = logprobs.topk(ro["top_k"], dim=1)
+RuntimeError: selected index k out of range
+
+2022-09-18 03:59:21 | INFO | alpa.opt_serving | Received new logprobs request: prompt length [8], top_k: 100000, api_key: None, ip: 127.0.0.1
+2022-09-18 03:59:21 | INFO | alpa.opt_serving | Forward begin. cache_id: cd585bea-8e24-43b4-92bd-47cae2106780
+2022-09-18 03:59:21 | INFO | alpa.opt_serving | Forward end. e2e latency: 0.04
+2022-09-18 03:59:21 | ERROR | alpa.opt_serving | Traceback (most recent call last):
+  File "interactive_hosted.py", line 141, in logprobs_loop
+    item = target_queue.get(timeout=timeout / 1000)
+  File "/usr/lib/python3.8/queue.py", line 178, in get
+    raise Empty
+_queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "interactive_hosted.py", line 218, in worker_main
+    batching_loop()
+  File "interactive_hosted.py", line 89, in batching_loop
+    logprobs_batch = logprobs_loop(
+  File "interactive_hosted.py", line 167, in logprobs_loop
+    top_logprobs, top_indices = logprobs.topk(ro["top_k"], dim=1)
+RuntimeError: selected index k out of range
+
+2022-09-18 03:59:22 | INFO | alpa.opt_serving | Received new logprobs request: prompt length [8], top_k: 100000, api_key: None, ip: 127.0.0.1
+2022-09-18 03:59:22 | INFO | alpa.opt_serving | Forward begin. cache_id: 88ab2cf2-ee19-4906-91e8-04847ad85e2b
+2022-09-18 03:59:22 | INFO | alpa.opt_serving | Forward end. e2e latency: 0.04
+2022-09-18 03:59:22 | ERROR | alpa.opt_serving | Traceback (most recent call last):
+  File "interactive_hosted.py", line 141, in logprobs_loop
+    item = target_queue.get(timeout=timeout / 1000)
+  File "/usr/lib/python3.8/queue.py", line 178, in get
+    raise Empty
+_queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "interactive_hosted.py", line 218, in worker_main
+    batching_loop()
+  File "interactive_hosted.py", line 89, in batching_loop
+    logprobs_batch = logprobs_loop(
+  File "interactive_hosted.py", line 167, in logprobs_loop
+    top_logprobs, top_indices = logprobs.topk(ro["top_k"], dim=1)
+RuntimeError: selected index k out of range
+
+2022-09-18 03:59:33 | INFO | alpa.opt_serving | Received new generate request: prompt length [1], max_len: 64, temperature: 0.7, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-18 03:59:35 | INFO | alpa.opt_serving | Batch 0 begin. batch size: 1
+2022-09-18 03:59:35 | INFO | alpa.opt_serving | Generate begin. batch uuid: 0, batch_size: 4, original bs: 1, generator_args: {'min_length': 1, 'max_length': 65, 'temperature': 0.7, 'do_sample': True, 'top_p': 0.5, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 03:59:35 | INFO | alpa.opt_serving | Generate end. batch uuid: 0
+2022-09-18 03:59:35 | INFO | alpa.opt_serving | Batch 0 end. batch size: 1, e2e latency: 0.70 s, inference latency: 0.69 s, speed: 379.13 token/s, 32 token latency: 0.34 s, tflops: 0.05 TFLOPS
+2022-09-18 04:00:45 | INFO | alpa.opt_serving | Received new generate request: prompt length [1], max_len: 64, temperature: 0.7, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-18 04:00:47 | INFO | alpa.opt_serving | Batch 1 begin. batch size: 1
+2022-09-18 04:00:47 | INFO | alpa.opt_serving | Generate begin. batch uuid: 1, batch_size: 4, original bs: 1, generator_args: {'min_length': 1, 'max_length': 65, 'temperature': 0.7, 'do_sample': True, 'top_p': 0.5, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:00:48 | INFO | alpa.opt_serving | Generate end. batch uuid: 1
+2022-09-18 04:00:48 | INFO | alpa.opt_serving | Batch 1 end. batch size: 1, e2e latency: 0.66 s, inference latency: 0.66 s, speed: 393.84 token/s, 32 token latency: 0.33 s, tflops: 0.06 TFLOPS
+2022-09-18 04:01:08 | INFO | alpa.opt_serving | Received new logprobs request: prompt length [1], top_k: 100000, api_key: None, ip: 127.0.0.1
+2022-09-18 04:01:08 | INFO | alpa.opt_serving | Forward begin. cache_id: 0a3ba75f-737f-4c13-829e-a34b309bbf58
+2022-09-18 04:01:08 | INFO | alpa.opt_serving | Forward end. e2e latency: 0.04
+2022-09-18 04:01:08 | ERROR | alpa.opt_serving | Traceback (most recent call last):
+  File "interactive_hosted.py", line 141, in logprobs_loop
+    item = target_queue.get(timeout=timeout / 1000)
+  File "/usr/lib/python3.8/queue.py", line 178, in get
+    raise Empty
+_queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "interactive_hosted.py", line 218, in worker_main
+    batching_loop()
+  File "interactive_hosted.py", line 89, in batching_loop
+    logprobs_batch = logprobs_loop(
+  File "interactive_hosted.py", line 167, in logprobs_loop
+    top_logprobs, top_indices = logprobs.topk(ro["top_k"], dim=1)
+RuntimeError: selected index k out of range
+
+2022-09-18 04:02:17 | INFO | alpa.opt_serving | Received new logprobs request: prompt length [1], top_k: 10, api_key: None, ip: 127.0.0.1
+2022-09-18 04:02:17 | INFO | alpa.opt_serving | Forward begin. cache_id: 259e83af-9161-41d4-9f5b-23da1839dbce
+2022-09-18 04:02:17 | INFO | alpa.opt_serving | Forward end. e2e latency: 0.03
+2022-09-18 04:04:27 | ERROR | stderr | Error in atexit._run_exitfuncs:
+2022-09-18 04:04:27 | ERROR | stderr | Traceback (most recent call last):
+2022-09-18 04:04:27 | ERROR | stderr |   File "/home/moe/Documents/GitHub/alpa/venv/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 105, in wrapper
+2022-09-18 04:04:27 | ERROR | stderr |     return func(*args, **kwargs)
+2022-09-18 04:04:27 | ERROR | stderr |   File "/home/moe/Documents/GitHub/alpa/venv/lib/python3.8/site-packages/ray/_private/worker.py", line 1580, in shutdown
+2022-09-18 04:04:27 | ERROR | stderr |     time.sleep(0.5)

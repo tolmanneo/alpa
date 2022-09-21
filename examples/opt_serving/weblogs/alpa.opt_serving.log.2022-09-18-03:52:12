@@ -1,0 +1,7 @@
+2022-09-18 03:52:12 | INFO | stdout | here
+2022-09-18 03:52:12 | INFO | stdout | Cannot find cached weights under '/home/moe/opt_weights/125M_np'.
+2022-09-18 03:52:12 | INFO | stdout | Load the pre-trained pytorch weights of opt-125m from huggingface. The downloading and cpu loading can take dozens of minutes. If it seems to get stuck, you can monitor the progress by checking the memory usage of this process.
+2022-09-18 03:52:12 | INFO | stdout |  * Serving Flask app 'interactive_hosted'
+2022-09-18 03:52:12 | INFO | stdout |  * Debug mode: off
+2022-09-18 03:52:12 | ERROR | stderr | Address already in use
+2022-09-18 03:52:12 | ERROR | stderr | Port 10001 is in use by another program. Either identify and stop that program, or start the server with a different port.

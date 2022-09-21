@@ -1,0 +1,142 @@
+2022-09-18 04:05:01 | INFO | stdout | here
+2022-09-18 04:05:01 | INFO | stdout |  * Serving Flask app 'interactive_hosted'
+2022-09-18 04:05:01 | INFO | stdout |  * Debug mode: off
+2022-09-18 04:05:01 | INFO | ray._private.worker | Connecting to existing Ray cluster at address: 192.168.0.131:6379...
+2022-09-18 04:05:01 | INFO | ray._private.worker | Connecting to existing Ray cluster at address: 192.168.0.131:6379...
+2022-09-18 04:05:01 | ERROR | stderr | 2022-09-18 04:05:01,142	INFO worker.py:1333 -- Connecting to existing Ray cluster at address: 192.168.0.131:6379...
+2022-09-18 04:05:01 | INFO | ray._private.worker | Connected to Ray cluster.
+2022-09-18 04:05:01 | INFO | ray._private.worker | Connected to Ray cluster.
+2022-09-18 04:05:01 | ERROR | stderr | 2022-09-18 04:05:01,145	INFO worker.py:1518 -- Connected to Ray cluster.
+2022-09-18 04:05:01 | INFO | stdout | Load model alpa/opt-6.7b ... (This can take several minutes for very large models)
+2022-09-18 04:05:01 | INFO | stdout |  - Compile executables for encoder_chunk_sizes=[1, 64].
+2022-09-18 04:05:11 | INFO | stdout | elapsed: 10.09 second.
+2022-09-18 04:05:11 | INFO | stdout |  - Load parameters.
+2022-09-18 04:05:24 | INFO | stdout | elapsed: 13.12 second.
+2022-09-18 04:05:25 | INFO | alpa.opt_serving | Loading model time: 23.43
+2022-09-18 04:06:00 | INFO | alpa.opt_serving | Received new generate request: prompt length [58], max_len: 64, temperature: 0.7, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-18 04:06:02 | INFO | alpa.opt_serving | Batch 0 begin. batch size: 1
+2022-09-18 04:06:02 | INFO | alpa.opt_serving | Generate begin. batch uuid: 0, batch_size: 4, original bs: 1, generator_args: {'min_length': 58, 'max_length': 122, 'temperature': 0.7, 'do_sample': True, 'top_p': 0.5, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:06:05 | INFO | alpa.opt_serving | Generate end. batch uuid: 0
+2022-09-18 04:06:05 | INFO | alpa.opt_serving | Batch 0 end. batch size: 1, e2e latency: 3.41 s, inference latency: 3.41 s, speed: 143.25 token/s, 32 token latency: 0.89 s, tflops: 0.99 TFLOPS
+2022-09-18 04:08:04 | INFO | alpa.opt_serving | Received new generate request: prompt length [43], max_len: 64, temperature: 0.7, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-18 04:08:06 | INFO | alpa.opt_serving | Batch 1 begin. batch size: 1
+2022-09-18 04:08:06 | INFO | alpa.opt_serving | Generate begin. batch uuid: 1, batch_size: 4, original bs: 1, generator_args: {'min_length': 43, 'max_length': 107, 'temperature': 0.7, 'do_sample': True, 'top_p': 0.5, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:08:09 | INFO | alpa.opt_serving | Generate end. batch uuid: 1
+2022-09-18 04:08:09 | INFO | alpa.opt_serving | Batch 1 end. batch size: 1, e2e latency: 2.71 s, inference latency: 2.71 s, speed: 158.21 token/s, 32 token latency: 0.81 s, tflops: 1.09 TFLOPS
+2022-09-18 04:10:38 | INFO | alpa.opt_serving | Received new generate request: prompt length [91], max_len: 64, temperature: 0.7, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-18 04:10:40 | INFO | alpa.opt_serving | Batch 2 begin. batch size: 1
+2022-09-18 04:10:40 | INFO | alpa.opt_serving | Generate begin. batch uuid: 2, batch_size: 4, original bs: 1, generator_args: {'min_length': 91, 'max_length': 155, 'temperature': 0.7, 'do_sample': True, 'top_p': 0.5, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:10:43 | INFO | alpa.opt_serving | Generate end. batch uuid: 2
+2022-09-18 04:10:43 | INFO | alpa.opt_serving | Batch 2 end. batch size: 1, e2e latency: 2.75 s, inference latency: 2.75 s, speed: 225.80 token/s, 32 token latency: 0.57 s, tflops: 1.56 TFLOPS
+2022-09-18 04:21:28 | INFO | alpa.opt_serving | Received new generate request: prompt length [173], max_len: 64, temperature: 0.7, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-18 04:21:30 | INFO | alpa.opt_serving | Batch 3 begin. batch size: 1
+2022-09-18 04:21:30 | INFO | alpa.opt_serving | Generate begin. batch uuid: 3, batch_size: 4, original bs: 1, generator_args: {'min_length': 173, 'max_length': 237, 'temperature': 0.7, 'do_sample': True, 'top_p': 0.5, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:21:33 | INFO | alpa.opt_serving | Generate end. batch uuid: 3
+2022-09-18 04:21:33 | INFO | alpa.opt_serving | Batch 3 end. batch size: 1, e2e latency: 2.76 s, inference latency: 2.75 s, speed: 344.19 token/s, 32 token latency: 0.37 s, tflops: 2.38 TFLOPS
+2022-09-18 04:25:01 | INFO | alpa.opt_serving | Received new generate request: prompt length [195], max_len: 64, temperature: 0.7, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-18 04:25:03 | INFO | alpa.opt_serving | Batch 4 begin. batch size: 1
+2022-09-18 04:25:03 | INFO | alpa.opt_serving | Generate begin. batch uuid: 4, batch_size: 4, original bs: 1, generator_args: {'min_length': 195, 'max_length': 259, 'temperature': 0.7, 'do_sample': True, 'top_p': 0.5, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:25:06 | INFO | alpa.opt_serving | Generate end. batch uuid: 4
+2022-09-18 04:25:06 | INFO | alpa.opt_serving | Batch 4 end. batch size: 1, e2e latency: 2.81 s, inference latency: 2.81 s, speed: 368.18 token/s, 32 token latency: 0.35 s, tflops: 2.55 TFLOPS
+2022-09-18 04:25:16 | INFO | alpa.opt_serving | Received new generate request: prompt length [195], max_len: 160, temperature: 0.7, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-18 04:25:18 | INFO | alpa.opt_serving | Batch 5 begin. batch size: 1
+2022-09-18 04:25:18 | INFO | alpa.opt_serving | Generate begin. batch uuid: 5, batch_size: 4, original bs: 1, generator_args: {'min_length': 195, 'max_length': 355, 'temperature': 0.7, 'do_sample': True, 'top_p': 0.5, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:25:25 | INFO | alpa.opt_serving | Generate end. batch uuid: 5
+2022-09-18 04:25:25 | INFO | alpa.opt_serving | Batch 5 end. batch size: 1, e2e latency: 6.66 s, inference latency: 6.66 s, speed: 213.37 token/s, 32 token latency: 0.60 s, tflops: 1.48 TFLOPS
+2022-09-18 04:26:51 | INFO | alpa.opt_serving | Received new generate request: prompt length [192], max_len: 160, temperature: 0.7, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-18 04:26:53 | INFO | alpa.opt_serving | Batch 6 begin. batch size: 1
+2022-09-18 04:26:53 | INFO | alpa.opt_serving | Generate begin. batch uuid: 6, batch_size: 4, original bs: 1, generator_args: {'min_length': 192, 'max_length': 352, 'temperature': 0.7, 'do_sample': True, 'top_p': 0.5, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:27:00 | INFO | alpa.opt_serving | Generate end. batch uuid: 6
+2022-09-18 04:27:00 | INFO | alpa.opt_serving | Batch 6 end. batch size: 1, e2e latency: 6.48 s, inference latency: 6.47 s, speed: 217.46 token/s, 32 token latency: 0.59 s, tflops: 1.50 TFLOPS
+2022-09-18 04:27:29 | INFO | alpa.opt_serving | Received new generate request: prompt length [194], max_len: 160, temperature: 0.7, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-18 04:27:31 | INFO | alpa.opt_serving | Batch 7 begin. batch size: 1
+2022-09-18 04:27:31 | INFO | alpa.opt_serving | Generate begin. batch uuid: 7, batch_size: 4, original bs: 1, generator_args: {'min_length': 194, 'max_length': 354, 'temperature': 0.7, 'do_sample': True, 'top_p': 0.5, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:27:38 | INFO | alpa.opt_serving | Generate end. batch uuid: 7
+2022-09-18 04:27:38 | INFO | alpa.opt_serving | Batch 7 end. batch size: 1, e2e latency: 6.69 s, inference latency: 6.68 s, speed: 211.88 token/s, 32 token latency: 0.60 s, tflops: 1.47 TFLOPS
+2022-09-18 04:28:26 | INFO | alpa.opt_serving | Received new generate request: prompt length [192], max_len: 128, temperature: 0.7, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-18 04:28:28 | INFO | alpa.opt_serving | Batch 8 begin. batch size: 1
+2022-09-18 04:28:28 | INFO | alpa.opt_serving | Generate begin. batch uuid: 8, batch_size: 4, original bs: 1, generator_args: {'min_length': 192, 'max_length': 320, 'temperature': 0.7, 'do_sample': True, 'top_p': 0.5, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:28:34 | INFO | alpa.opt_serving | Generate end. batch uuid: 8
+2022-09-18 04:28:34 | INFO | alpa.opt_serving | Batch 8 end. batch size: 1, e2e latency: 5.16 s, inference latency: 5.16 s, speed: 248.07 token/s, 32 token latency: 0.52 s, tflops: 1.72 TFLOPS
+2022-09-18 04:29:23 | INFO | alpa.opt_serving | Received new generate request: prompt length [200], max_len: 128, temperature: 0.7, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-18 04:29:25 | INFO | alpa.opt_serving | Batch 9 begin. batch size: 1
+2022-09-18 04:29:25 | INFO | alpa.opt_serving | Generate begin. batch uuid: 9, batch_size: 4, original bs: 1, generator_args: {'min_length': 200, 'max_length': 328, 'temperature': 0.7, 'do_sample': True, 'top_p': 0.5, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:29:30 | INFO | alpa.opt_serving | Generate end. batch uuid: 9
+2022-09-18 04:29:30 | INFO | alpa.opt_serving | Batch 9 end. batch size: 1, e2e latency: 5.17 s, inference latency: 5.17 s, speed: 253.64 token/s, 32 token latency: 0.50 s, tflops: 1.75 TFLOPS
+2022-09-18 04:37:03 | INFO | alpa.opt_serving | Received new generate request: prompt length [200], max_len: 64, temperature: 0.7, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-18 04:37:05 | INFO | alpa.opt_serving | Batch 10 begin. batch size: 1
+2022-09-18 04:37:05 | INFO | alpa.opt_serving | Generate begin. batch uuid: 10, batch_size: 4, original bs: 1, generator_args: {'min_length': 200, 'max_length': 264, 'temperature': 0.7, 'do_sample': True, 'top_p': 0.5, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:37:08 | INFO | alpa.opt_serving | Generate end. batch uuid: 10
+2022-09-18 04:37:08 | INFO | alpa.opt_serving | Batch 10 end. batch size: 1, e2e latency: 2.83 s, inference latency: 2.83 s, speed: 373.62 token/s, 32 token latency: 0.34 s, tflops: 2.58 TFLOPS
+2022-09-18 04:38:02 | INFO | alpa.opt_serving | Received new generate request: prompt length [200], max_len: 256, temperature: 0.9, top_p: 0.9, api_key: None, ip: 127.0.0.1
+2022-09-18 04:38:04 | INFO | alpa.opt_serving | Batch 11 begin. batch size: 1
+2022-09-18 04:38:04 | INFO | alpa.opt_serving | Generate begin. batch uuid: 11, batch_size: 4, original bs: 1, generator_args: {'min_length': 200, 'max_length': 456, 'temperature': 0.9, 'do_sample': True, 'top_p': 0.9, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:38:15 | INFO | alpa.opt_serving | Generate end. batch uuid: 11
+2022-09-18 04:38:15 | INFO | alpa.opt_serving | Batch 11 end. batch size: 1, e2e latency: 10.51 s, inference latency: 10.51 s, speed: 173.54 token/s, 32 token latency: 0.74 s, tflops: 1.20 TFLOPS
+2022-09-18 04:39:27 | INFO | alpa.opt_serving | Received new generate request: prompt length [192], max_len: 256, temperature: 0.9, top_p: 0.9, api_key: None, ip: 127.0.0.1
+2022-09-18 04:39:29 | INFO | alpa.opt_serving | Batch 12 begin. batch size: 1
+2022-09-18 04:39:29 | INFO | alpa.opt_serving | Generate begin. batch uuid: 12, batch_size: 4, original bs: 1, generator_args: {'min_length': 192, 'max_length': 448, 'temperature': 0.9, 'do_sample': True, 'top_p': 0.9, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:39:40 | INFO | alpa.opt_serving | Generate end. batch uuid: 12
+2022-09-18 04:39:40 | INFO | alpa.opt_serving | Batch 12 end. batch size: 1, e2e latency: 10.46 s, inference latency: 10.46 s, speed: 171.37 token/s, 32 token latency: 0.75 s, tflops: 1.19 TFLOPS
+2022-09-18 04:43:03 | INFO | alpa.opt_serving | Received new generate request: prompt length [209], max_len: 256, temperature: 0.9, top_p: 0.9, api_key: None, ip: 127.0.0.1
+2022-09-18 04:43:05 | INFO | alpa.opt_serving | Batch 13 begin. batch size: 1
+2022-09-18 04:43:05 | INFO | alpa.opt_serving | Generate begin. batch uuid: 13, batch_size: 4, original bs: 1, generator_args: {'min_length': 209, 'max_length': 465, 'temperature': 0.9, 'do_sample': True, 'top_p': 0.9, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:43:16 | INFO | alpa.opt_serving | Generate end. batch uuid: 13
+2022-09-18 04:43:16 | INFO | alpa.opt_serving | Batch 13 end. batch size: 1, e2e latency: 10.54 s, inference latency: 10.54 s, speed: 176.45 token/s, 32 token latency: 0.73 s, tflops: 1.22 TFLOPS
+2022-09-18 04:46:06 | INFO | alpa.opt_serving | Received new generate request: prompt length [206], max_len: 256, temperature: 0.9, top_p: 0.9, api_key: None, ip: 127.0.0.1
+2022-09-18 04:46:08 | INFO | alpa.opt_serving | Batch 14 begin. batch size: 1
+2022-09-18 04:46:08 | INFO | alpa.opt_serving | Generate begin. batch uuid: 14, batch_size: 4, original bs: 1, generator_args: {'min_length': 206, 'max_length': 462, 'temperature': 0.9, 'do_sample': True, 'top_p': 0.9, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:46:18 | INFO | alpa.opt_serving | Generate end. batch uuid: 14
+2022-09-18 04:46:18 | INFO | alpa.opt_serving | Batch 14 end. batch size: 1, e2e latency: 10.30 s, inference latency: 10.30 s, speed: 179.49 token/s, 32 token latency: 0.71 s, tflops: 1.24 TFLOPS
+2022-09-18 04:46:53 | INFO | alpa.opt_serving | Received new generate request: prompt length [206], max_len: 256, temperature: 0.9, top_p: 0.6, api_key: None, ip: 127.0.0.1
+2022-09-18 04:46:55 | INFO | alpa.opt_serving | Batch 15 begin. batch size: 1
+2022-09-18 04:46:55 | INFO | alpa.opt_serving | Generate begin. batch uuid: 15, batch_size: 4, original bs: 1, generator_args: {'min_length': 206, 'max_length': 462, 'temperature': 0.9, 'do_sample': True, 'top_p': 0.6, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:47:05 | INFO | alpa.opt_serving | Generate end. batch uuid: 15
+2022-09-18 04:47:05 | INFO | alpa.opt_serving | Batch 15 end. batch size: 1, e2e latency: 10.27 s, inference latency: 10.27 s, speed: 179.96 token/s, 32 token latency: 0.71 s, tflops: 1.24 TFLOPS
+2022-09-18 04:48:05 | INFO | alpa.opt_serving | Received new generate request: prompt length [206], max_len: 256, temperature: 0.9, top_p: 0.7, api_key: None, ip: 127.0.0.1
+2022-09-18 04:48:07 | INFO | alpa.opt_serving | Batch 16 begin. batch size: 1
+2022-09-18 04:48:07 | INFO | alpa.opt_serving | Generate begin. batch uuid: 16, batch_size: 4, original bs: 1, generator_args: {'min_length': 206, 'max_length': 462, 'temperature': 0.9, 'do_sample': True, 'top_p': 0.7, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:48:17 | INFO | alpa.opt_serving | Generate end. batch uuid: 16
+2022-09-18 04:48:17 | INFO | alpa.opt_serving | Batch 16 end. batch size: 1, e2e latency: 10.33 s, inference latency: 10.33 s, speed: 178.90 token/s, 32 token latency: 0.72 s, tflops: 1.24 TFLOPS
+2022-09-18 04:48:36 | INFO | alpa.opt_serving | Received new generate request: prompt length [206], max_len: 256, temperature: 0.8, top_p: 0.8, api_key: None, ip: 127.0.0.1
+2022-09-18 04:48:38 | INFO | alpa.opt_serving | Batch 17 begin. batch size: 1
+2022-09-18 04:48:38 | INFO | alpa.opt_serving | Generate begin. batch uuid: 17, batch_size: 4, original bs: 1, generator_args: {'min_length': 206, 'max_length': 462, 'temperature': 0.8, 'do_sample': True, 'top_p': 0.8, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:48:48 | INFO | alpa.opt_serving | Generate end. batch uuid: 17
+2022-09-18 04:48:48 | INFO | alpa.opt_serving | Batch 17 end. batch size: 1, e2e latency: 10.13 s, inference latency: 10.13 s, speed: 182.49 token/s, 32 token latency: 0.70 s, tflops: 1.26 TFLOPS
+2022-09-18 04:49:20 | INFO | alpa.opt_serving | Received new generate request: prompt length [206], max_len: 256, temperature: 0.9, top_p: 0.6, api_key: None, ip: 127.0.0.1
+2022-09-18 04:49:22 | INFO | alpa.opt_serving | Batch 18 begin. batch size: 1
+2022-09-18 04:49:22 | INFO | alpa.opt_serving | Generate begin. batch uuid: 18, batch_size: 4, original bs: 1, generator_args: {'min_length': 206, 'max_length': 462, 'temperature': 0.9, 'do_sample': True, 'top_p': 0.6, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:49:32 | INFO | alpa.opt_serving | Generate end. batch uuid: 18
+2022-09-18 04:49:32 | INFO | alpa.opt_serving | Batch 18 end. batch size: 1, e2e latency: 10.23 s, inference latency: 10.23 s, speed: 180.65 token/s, 32 token latency: 0.71 s, tflops: 1.25 TFLOPS
+2022-09-18 04:50:09 | INFO | alpa.opt_serving | Received new generate request: prompt length [206], max_len: 256, temperature: 0.9, top_p: 0.5, api_key: None, ip: 127.0.0.1
+2022-09-18 04:50:11 | INFO | alpa.opt_serving | Batch 19 begin. batch size: 1
+2022-09-18 04:50:11 | INFO | alpa.opt_serving | Generate begin. batch uuid: 19, batch_size: 4, original bs: 1, generator_args: {'min_length': 206, 'max_length': 462, 'temperature': 0.9, 'do_sample': True, 'top_p': 0.5, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:50:22 | INFO | alpa.opt_serving | Generate end. batch uuid: 19
+2022-09-18 04:50:22 | INFO | alpa.opt_serving | Batch 19 end. batch size: 1, e2e latency: 10.36 s, inference latency: 10.36 s, speed: 178.43 token/s, 32 token latency: 0.72 s, tflops: 1.23 TFLOPS
+2022-09-18 04:50:37 | INFO | alpa.opt_serving | Received new generate request: prompt length [206], max_len: 256, temperature: 0.7, top_p: 0.6, api_key: None, ip: 127.0.0.1
+2022-09-18 04:50:39 | INFO | alpa.opt_serving | Batch 20 begin. batch size: 1
+2022-09-18 04:50:39 | INFO | alpa.opt_serving | Generate begin. batch uuid: 20, batch_size: 4, original bs: 1, generator_args: {'min_length': 206, 'max_length': 462, 'temperature': 0.7, 'do_sample': True, 'top_p': 0.6, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:50:49 | INFO | alpa.opt_serving | Generate end. batch uuid: 20
+2022-09-18 04:50:49 | INFO | alpa.opt_serving | Batch 20 end. batch size: 1, e2e latency: 10.20 s, inference latency: 10.19 s, speed: 181.28 token/s, 32 token latency: 0.71 s, tflops: 1.25 TFLOPS
+2022-09-18 04:51:21 | INFO | alpa.opt_serving | Received new generate request: prompt length [206], max_len: 256, temperature: 0.8, top_p: 0.6, api_key: None, ip: 127.0.0.1
+2022-09-18 04:51:23 | INFO | alpa.opt_serving | Batch 21 begin. batch size: 1
+2022-09-18 04:51:23 | INFO | alpa.opt_serving | Generate begin. batch uuid: 21, batch_size: 4, original bs: 1, generator_args: {'min_length': 206, 'max_length': 462, 'temperature': 0.8, 'do_sample': True, 'top_p': 0.6, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:51:33 | INFO | alpa.opt_serving | Generate end. batch uuid: 21
+2022-09-18 04:51:33 | INFO | alpa.opt_serving | Batch 21 end. batch size: 1, e2e latency: 10.18 s, inference latency: 10.18 s, speed: 181.52 token/s, 32 token latency: 0.71 s, tflops: 1.26 TFLOPS
+2022-09-18 04:52:08 | INFO | alpa.opt_serving | Received new generate request: prompt length [193], max_len: 256, temperature: 0.8, top_p: 0.7, api_key: None, ip: 127.0.0.1
+2022-09-18 04:52:10 | INFO | alpa.opt_serving | Batch 22 begin. batch size: 1
+2022-09-18 04:52:10 | INFO | alpa.opt_serving | Generate begin. batch uuid: 22, batch_size: 4, original bs: 1, generator_args: {'min_length': 193, 'max_length': 449, 'temperature': 0.8, 'do_sample': True, 'top_p': 0.7, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:52:20 | INFO | alpa.opt_serving | Generate end. batch uuid: 22
+2022-09-18 04:52:20 | INFO | alpa.opt_serving | Batch 22 end. batch size: 1, e2e latency: 10.34 s, inference latency: 10.34 s, speed: 173.68 token/s, 32 token latency: 0.74 s, tflops: 1.20 TFLOPS
+2022-09-18 04:53:15 | INFO | alpa.opt_serving | Received new generate request: prompt length [189], max_len: 256, temperature: 0.8, top_p: 0.7, api_key: None, ip: 127.0.0.1
+2022-09-18 04:53:17 | INFO | alpa.opt_serving | Batch 23 begin. batch size: 1
+2022-09-18 04:53:17 | INFO | alpa.opt_serving | Generate begin. batch uuid: 23, batch_size: 4, original bs: 1, generator_args: {'min_length': 189, 'max_length': 445, 'temperature': 0.8, 'do_sample': True, 'top_p': 0.7, 'num_beams': 1, 'num_return_sequences': 1, 'early_stopping': True, 'repetition_penalty': 1.0, 'no_repeat_ngram_size': 8}.
+2022-09-18 04:53:27 | INFO | alpa.opt_serving | Generate end. batch uuid: 23
+2022-09-18 04:53:27 | INFO | alpa.opt_serving | Batch 23 end. batch size: 1, e2e latency: 10.09 s, inference latency: 10.09 s, speed: 176.41 token/s, 32 token latency: 0.73 s, tflops: 1.22 TFLOPS
+2022-09-18 05:18:09 | ERROR | stderr | Error in atexit._run_exitfuncs:
+2022-09-18 05:18:09 | ERROR | stderr | Traceback (most recent call last):
+2022-09-18 05:18:09 | ERROR | stderr |   File "/home/moe/Documents/GitHub/alpa/venv/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 105, in wrapper
+2022-09-18 05:18:09 | ERROR | stderr |     return func(*args, **kwargs)
+2022-09-18 05:18:09 | ERROR | stderr |   File "/home/moe/Documents/GitHub/alpa/venv/lib/python3.8/site-packages/ray/_private/worker.py", line 1580, in shutdown
+2022-09-18 05:18:09 | ERROR | stderr |     time.sleep(0.5)
+2022-09-18 05:18:09 | ERROR | stderr | KeyboardInterrupt

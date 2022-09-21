@@ -1,0 +1,2 @@
+2022-09-17 07:20:30 | ERROR | stderr | usage: interactive_hosted.py [-h] [--model MODEL] [--path PATH] [--port PORT] [--torch-device TORCH_DEVICE] [--use-recaptcha] [--keys-file KEYS_FILE]
+2022-09-17 07:20:30 | ERROR | stderr | interactive_hosted.py: error: unrecognized arguments: 1

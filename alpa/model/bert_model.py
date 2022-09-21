@@ -197,7 +197,7 @@ class FlaxBertSelfAttention(nn.Module):
             bias=attention_bias,
             dropout_rng=dropout_rng,
             dropout_rate=self.config.attention_probs_dropout_prob,
-            broadcast_dropout=False,
+            broadcast_dropout=True,
             deterministic=deterministic,
             dtype=self.dtype,
             precision=None,
